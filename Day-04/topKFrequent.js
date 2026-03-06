@@ -5,7 +5,7 @@ function topKFrequent(nums, k) {
   // We create an array of empty arrays
   const buckets = Array.from({ length: nums.length + 1 }, () => []);
 
-  // 1. Fill the frequency map (Your code!)
+  // 1. Fill the frequency map 
   for (let num of nums) {
     countMap.set(num, (countMap.get(num) || 0) + 1);
   }

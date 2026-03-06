@@ -46,10 +46,3 @@ console.log(twoSumHash(nums, target));
 
 
 
-let hero = " super " ; 
-
-function hel(){
-    console.log(hero)
-}
-
-hel();
